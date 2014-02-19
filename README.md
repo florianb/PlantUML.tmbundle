@@ -12,6 +12,6 @@ This bundle is initially developed for Textmate 2.
 #### Install as development-bundle
 
 ~~~
-mkdir ~/Library/Application\ Support/Avian
-git clone https://github.com/florianb/PlantUML.tmbundle.git ~/Library/Application\ Support/Avian/PlantUML.tmbundle
+mkdir -p ~/Library/Application\ Support/Avian/Bundles
+git clone https://github.com/florianb/PlantUML.tmbundle.git ~/Library/Application\ Support/Avian/Bundles/PlantUML.tmbundle
 ~~~

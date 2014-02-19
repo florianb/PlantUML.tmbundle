@@ -38,7 +38,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\s+(&lt;--?|-?-&gt;)\s+</string>
+			<string>\s+(&lt;--?|-?-&gt;|..|---&gt;|&lt;---)\s+</string>
 			<key>name</key>
 			<string>keyword.operator.internalmsgs.plantuml</string>
 		</dict>

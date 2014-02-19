@@ -13,5 +13,5 @@ This bundle is initially developed for Textmate 2.
 
 ~~~
 mkdir ~/Library/Application\ Support/Avian
-git clone  ~/Library/Application\ Support/Avian/PlantUML.tmbundle
+git clone https://github.com/florianb/PlantUML.tmbundle.git ~/Library/Application\ Support/Avian/PlantUML.tmbundle
 ~~~

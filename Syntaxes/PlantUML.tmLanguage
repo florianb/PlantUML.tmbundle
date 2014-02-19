@@ -14,15 +14,27 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\B(@startuml|@enduml)\b</string>
+			<string>^\s*(@startuml|@enduml)\b</string>
 			<key>name</key>
 			<string>keyword.control.plantuml</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(if|while|for|return)\b</string>
+			<string>\b(activate|again|also|alt|as|autonumber|bottom|box|break|center|create|critical|deactivate|destroy|down|else|end|endif|endwhile|footbox|footer|fork|group|header|hide|if|is|left|link|loop|namespace|newpage|note|of|on|opt|over|package|page|par|partition|ref|repeat|return|right|rotate|show|skin|skinparam|start|stop|title|top|top to bottom direction|up|while)\b</string>
 			<key>name</key>
-			<string>keyword.control.plantuml</string>
+			<string>keyword.other.plantuml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(activate|again|also|alt|as|autonumber|bottom|box|break|center|create|critical|deactivate|destroy|down|else|end|endif|endwhile|footbox|footer|fork|group|header|hide|if|is|left|link|loop|namespace|newpage|note|of|on|opt|over|package|page|par|partition|ref|repeat|return|right|rotate|show|skin|skinparam|start|stop|title|top|top to bottom direction|up|while)\b</string>
+			<key>name</key>
+			<string>constant.language.skinparameter.plantuml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(activate|again|also|alt|as|autonumber|bottom|box|break|center|create|critical|deactivate|destroy|down|else|end|endif|endwhile|footbox|footer|fork|group|header|hide|if|is|left|link|loop|namespace|newpage|note|of|on|opt|over|package|page|par|partition|ref|repeat|return|right|rotate|show|skin|skinparam|start|stop|title|top|top to bottom direction|up|while)\b</string>
+			<key>name</key>
+			<string>keyword.other.plantuml</string>
 		</dict>
 		<dict>
 			<key>begin</key>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>txt</string>
+	</array>
+	<key>firstLineMatch</key>
+	<string>@startuml</string>
+	<key>name</key>
+	<string>PlantUML</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\B(@startuml|@enduml)\b</string>
+			<key>name</key>
+			<string>keyword.control.plantuml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(if|while|for|return)\b</string>
+			<key>name</key>
+			<string>keyword.control.plantuml</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>end</key>
+			<string>"</string>
+			<key>name</key>
+			<string>string.quoted.double.plantuml</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\.</string>
+					<key>name</key>
+					<string>constant.character.escape.plantuml</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.plantuml</string>
+	<key>uuid</key>
+	<string>63DA15BB-D680-4EDC-A411-A93A199DF523</string>
+</dict>
+</plist>

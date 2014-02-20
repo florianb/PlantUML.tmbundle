@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>state "$0"${1: as ${3:ifc}}</string>
+	<string>state "$0"${1: as ${3:stat}}</string>
 	<key>name</key>
 	<string>state</string>
 	<key>tabTrigger</key>

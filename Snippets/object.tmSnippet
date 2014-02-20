@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>object "$0"${1: as ${3:ifc}}</string>
+	<string>object "$0"${1: as ${3:obj}}</string>
 	<key>name</key>
 	<string>object</string>
 	<key>tabTrigger</key>

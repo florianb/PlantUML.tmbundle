@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>state "$0" {
-  $1
+	<string>state "$1" {
+  $2
 }</string>
 	<key>name</key>
 	<string>composite state</string>

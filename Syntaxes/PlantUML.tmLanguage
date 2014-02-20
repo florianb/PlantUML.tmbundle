@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>txt</string>
+		<string>iuml</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>@startuml</string>
@@ -68,9 +69,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?:^\s*)==[\s\w]*</string>
+			<string>(?:^\s*)==[\s\w]*==</string>
 			<key>name</key>
 			<string>keyword.control.divider.plantuml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?:^\s*)===[\s\w]*===</string>
+			<key>name</key>
+			<string>keyword.control.synchronizationbar.plantuml</string>
 		</dict>
 		<dict>
 			<key>match</key>

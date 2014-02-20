@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>note${2: ${3|left,right,top,bottom|} of $4}: $1</string>
+	<key>disableAutoIndent</key>
+	<true/>
+	<key>name</key>
+	<string>note</string>
+	<key>tabTrigger</key>
+	<string>n</string>
+	<key>uuid</key>
+	<string>D9414A38-0384-47F5-8629-293668C226D3</string>
+</dict>
+</plist>

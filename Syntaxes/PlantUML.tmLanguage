@@ -33,7 +33,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>:</string>
+			<string>(:|--)</string>
 			<key>name</key>
 			<string>keyword.operator.plantuml</string>
 		</dict>
@@ -135,6 +135,8 @@
 	</array>
 	<key>scopeName</key>
 	<string>source.plantuml</string>
+	<key>semanticClass</key>
+	<string>text.plantuml</string>
 	<key>uuid</key>
 	<string>63DA15BB-D680-4EDC-A411-A93A199DF523</string>
 </dict>

@@ -38,6 +38,18 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>\s+(\*|o|&lt;\|)?(?:(-+(right|left|up|down))?-+)(\*|o|\|&gt;)?\s+</string>
+			<key>name</key>
+			<string>keyword.operator.relations.plantuml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\s+(\*|o|&lt;\|){0,2}(?:(\.+(right|left|up|down))?\.+)(\*|o|\|&gt;){0,2}\s+</string>
+			<key>name</key>
+			<string>keyword.operator.dottedrelations.plantuml</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\s+&lt;{0,2}(?:(-+(right|left|up|down))?-+)&gt;{0,2}\s+</string>
 			<key>name</key>
 			<string>keyword.operator.arrows.plantuml</string>
